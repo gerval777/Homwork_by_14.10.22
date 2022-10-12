@@ -17,17 +17,17 @@ public class Main {
 
         System.out.print("Решение 1 массива: ");
         for (byte ex1 = 0; ex1 < аrray.length; ex1++)
-            System.out.print(аrray[ex1] + ", ");
+            System.out.print(ex1 != аrray.length - 1 ? аrray[ex1] + ", " : аrray[ex1]);
         System.out.println();
 
         System.out.print("Решение 2 массива: ");
         for (byte ex2 = 0; ex2 < fractionАrray.length; ex2++)
-            System.out.print(fractionАrray[ex2] + ", ");
+            System.out.print(ex2 != fractionАrray.length - 1 ? fractionАrray[ex2] + ", " : fractionАrray[ex2]);
         System.out.println();
 
         System.out.print("Решение 3 массива: ");
         for (byte ex3 = 0; ex3 < fiboArray.length; ex3++)
-            System.out.print(fiboArray[ex3] + ", ");
+            System.out.print(ex3 != fiboArray.length - 1 ? fiboArray[ex3] + ", " : fiboArray[ex3]);
         System.out.println();
         System.out.println();
 
